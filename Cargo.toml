@@ -1,0 +1,19 @@
+[package]
+name = "guessing-game"
+version = "0.1.0"
+authors = ["Andy <4ndygeiss@gmail.com>"]
+edition = "2021"
+build = "build.rs"
+description = "A guessing game written in Rust (powered by Slint)."
+license = "MIT"
+
+[dependencies]
+rand = "0.8"
+slint = "1.0"
+
+[build-dependencies]
+slint-build = "1.0"
+
+[package.metadata.bundle]
+name = "guessing-game"
+identifier = "github.com/andygeiss/guessing-game"
